@@ -1,0 +1,13 @@
+export const TODOS = [
+    {
+      id: 1,
+      title: "GO TO GYM",
+      description: "Hit the Gym from 7-8"
+    },
+    {
+      id: 2,
+      title: "GO TO EAT FOOD",
+      description: "Eat food from 9-11"
+    }
+  ];
+  
