@@ -21,7 +21,7 @@ function MainApp() {
       .then(res => {
         setNetworkCount(res.data)
       })
-  }, [])
+  }, [])  //this shows some blink on the screen while loading values so use async function in selector and can also del this later from the code to optimise it 
 
   return (
     <>
