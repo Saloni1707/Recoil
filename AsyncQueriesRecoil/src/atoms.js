@@ -15,7 +15,7 @@ export const notifications = atom ({
     default: {
         key : "networkAtomSelector",
         get : async () => { //why do this ? kyunki we can't use directly the async func so used a Selector here
-            const res = await axios.get("https://sum-server.100xdevs.com/notifications")
+            const res = await axios.get(" ") //use any ramdom axios url 
             return res.data
         }
     }
